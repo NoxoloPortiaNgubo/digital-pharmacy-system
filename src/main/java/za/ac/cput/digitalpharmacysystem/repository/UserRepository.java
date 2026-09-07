@@ -6,6 +6,8 @@ import za.ac.cput.digitalpharmacysystem.domain.User;
 
 import java.util.Optional;
 
+//author: 221066748 (Noxolo Portia Ngubo)
+
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findByEmail(String email);

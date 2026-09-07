@@ -6,6 +6,8 @@ import za.ac.cput.digitalpharmacysystem.util.Helper;
 
 import java.time.LocalDate;
 
+//Author: 221066748 (Noxolo Portia Ngubo)
+
 public class PatientProfileFactory {
 
     public static PatientProfile buildPatientProfile(User user, LocalDate dateOfBirth, String allergies, String chronicConditions, String emergencyContactPhone) {

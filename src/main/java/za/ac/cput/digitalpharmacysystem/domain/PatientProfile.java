@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import java.io.Serializable;
 import java.util.Objects;
 
-//Author: 221066748
+//Author: 221066748 (Noxolo Portia Ngubo)
 
 @Entity
 @Table(name = "patient_profile")

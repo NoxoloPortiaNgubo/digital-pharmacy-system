@@ -7,6 +7,8 @@ import za.ac.cput.digitalpharmacysystem.repository.UserRepository;
 
 import java.util.List;
 
+//Author: 221066748 (Noxolo Portia Ngubo)
+
 @Service
 public class UserService implements IUserService {
 

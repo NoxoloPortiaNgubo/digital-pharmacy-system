@@ -6,6 +6,8 @@ import za.ac.cput.digitalpharmacysystem.domain.PatientProfile;
 
 import java.util.Optional;
 
+//Author: 221066748 (Noxolo Portia Ngubo)
+
 @Repository
 public interface PatientProfileRepository extends JpaRepository<PatientProfile, Long> {
     Optional<PatientProfile> findByUserId(Long userId);
